@@ -1,0 +1,32 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Part a</title>
+	<meta name='author' content='Matt Gaikema'></meta>
+	<meta name='description' content='Implimentation of part a in my CSCE 221 hw1'></meta>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src='scripts/script.js'></script>
+	<link rel='icon' href='https://s-media-cache-ak0.pinimg.com/736x/c1/ac/6c/c1ac6c85a53770b2a99dedc2c283a1eb.jpg'></link>
+</head>
+<body>
+	<div id='p1'>
+	<h1>Player 1</h1>
+	<label for='max'>Upper bound</label>
+	<!--http://stackoverflow.com/questions/23263886/is-there-a-way-to-only-allow-input-using-the-spinner-controls-on-an-input-type-->
+	<input id='max' type='number' min='2' max='50' value='32' onkeydown="return false"></input>
+	<button id='p1b1' onclick='p1_submit()'>Let's go!</button>
+	</div>
+	<div id='p2' hidden>
+	<h1>Player 2</h1>
+	<label for='guess'>Guess!</label>
+	<input type='number' id='guess' value='16' onkeydown="return false"></input>
+	<button onclick='game()'>Guess!</button>
+	<br></br>
+	<label for='hint'>Hint:</label>
+	<input type='text' id='hint' readonly></input>
+	<br></br>
+	<label for='trial_num'>Guess number: </label>
+	<input type='number' disabled id='trial_num'></input>
+	</div>
+</body>
+</html> 
