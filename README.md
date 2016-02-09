@@ -13,5 +13,5 @@ Hosted [here.](https://dl.dropboxusercontent.com/u/222607174/js-hw1b/index.html)
 
 # c 
 In part c, the user inputs an upper bound and inputs the answer, 
-and the progam tries to guess the number
+and the progam tries to guess the number.
 Hosted [here.](https://dl.dropboxusercontent.com/u/222607174/js-hw1c/index.html)
