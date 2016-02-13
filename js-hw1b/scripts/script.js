@@ -72,6 +72,6 @@ function simulate(){
 	guess_id.setAttribute('value',temp_guess);
 	//guess_id.setAttribute('value',Math.floor(0.5*(temp_max-temp_min)));
 	
-	setTimeout(game,1500);
+	setTimeout(game,150);
 	//game();
 };
