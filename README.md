@@ -1,5 +1,5 @@
 # CSCE221-hw1-pr1
-JavaScript implimentation of a homework assignment
+JavaScript implimentation of a [homework assignment.](https://www.dropbox.com/home/CSCE%20221/Homework%201?preview=221-16a-h1.pdf)
 
 # a
 In part a, The first player selects an upper bound,
